@@ -3,7 +3,7 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "CV"
       href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<you@youremail.com>

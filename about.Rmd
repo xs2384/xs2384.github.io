@@ -1,0 +1,13 @@
+---
+title: "This is Xinyu Shen's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## EDUCATION
+
+Columbia University                                                           New York, NY
+
+_Master of Science in Biostatistics with an emphasis in Data Science_         Sept. 2019-Jun. 2021
