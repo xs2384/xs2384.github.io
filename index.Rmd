@@ -1,0 +1,14 @@
+---
+title: "This is Xinyu Shen's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+<img src= "image/IMG_0282.png" style="width:75%">
+
+#About me
+
+Currently, I'm the first year student at Columbia University, Mailman School of Public Health, with the major of M.S. in Biostatistics. I earned my Bachelor degree at University of Wisconsin-Madison with the major of Mathematics. During my spare time, I like playing basketball and my favourite NBA player is LeBron James. Let's go Lakers!! 
