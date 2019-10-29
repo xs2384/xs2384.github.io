@@ -7,15 +7,11 @@ output:
 
 ## EDUCATION
 
-<br>
 <font size = "3">**Columbia University**</font>                                             
 _Master of Science in Biostatistics_
 <br> Sept. 2019 - Jun. 2021
 <br> **New York, NY**
 <br>Courses: Data Science, Probability, Biostatistics Method, Epidemiology
-
-
-<br>
 
 <font size = "3">**University of Wisconsin-Madison**</font>
 <br>_Bachelor of Arts in Mathematics_
