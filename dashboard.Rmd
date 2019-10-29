@@ -68,11 +68,13 @@ nyc_inspections = nyc_inspections %>% select(camis, boro, cuisine_description, i
 
 most_recent_inspec = inner_join(nyc_inspections %>% group_by(camis) %>% summarize(inspection_date = max(inspection_date)), nyc_inspections) %>% distinct() %>% ungroup() %>% group_by(camis) %>% filter(score == max(score)) %>% ungroup()
 
-most_recent_inspec %>% filter(boro == "Manhattan") %>% group_by(longitude,latitude) %>% summarize(score = mean(score)) %>% plot_ly(
+most_recent_inspec %>% filter(boro == "Manhattan") %>% group_by(longitude,latitude) %>% summarize(score = mean(score)) %>% mutate(text_label = str_c("Score:", score)
+) %>% plot_ly(
   x = ~latitude,
   y = ~longitude, 
   type = "scatter",
   mode = "markers",
+  text = ~text_label,
   color = ~score,
   alpha = 0.5
 )
@@ -86,12 +88,22 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
+# The boxplot of most recent inspection score for boroughs in NYC. 
+
+most_recent_inspec %>% mutate(boro = fct_reorder(boro, score)) %>% plot_ly(
+  y = ~score,
+  color = ~boro,
+  type = "box",
+  colors = "Set2"
+)
 
 ```
 
 ### Chart C
-
 ```{r}
-
+most_recent_inspec %>% mutate(
+  vio_level = ifelse(score < 2, "Good", ifelse(score>=2 & score <5, "General violation", ifelse(score>=5 & score < 7, "Critical violation", "Public health hazard"))),
+  vio_level = factor(vio_level, levels = c("Good","General violation","Critical violation", "Public health hazard"))
+  ) %>% group_by(boro, vio_level) %>% count() %>% plot_ly(x= ~boro, y = ~n, color = ~vio_level, type = "bar") %>% layout(yaxis = list(title = 'Count'), barmode = 'stack')
 ```
 
