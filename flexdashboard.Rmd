@@ -1,0 +1,99 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r, message=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(httr)
+library(jsonlite)
+library(viridis)
+library(plotly)
+```
+
+
+
+```{r, message=FALSE}
+get_all_inspections = function(url) {
+  
+  all_inspections = vector("list", length = 0)
+  
+  loop_index = 1
+  chunk_size = 50000
+  DO_NEXT = TRUE
+  
+  while (DO_NEXT) {
+    message("Getting data, page ", loop_index)
+    
+    all_inspections[[loop_index]] = 
+      GET(url,
+          query = list(`$order` = "zipcode",
+                       `$limit` = chunk_size,
+                       `$offset` = as.integer((loop_index - 1) * chunk_size)
+                       )
+          ) %>%
+      content("text") %>%
+      fromJSON() %>%
+      as_tibble()
+    
+    DO_NEXT = dim(all_inspections[[loop_index]])[1] == chunk_size
+    loop_index = loop_index + 1
+  }
+  
+  all_inspections
+  
+}
+
+url = "https://data.cityofnewyork.us/resource/43nn-pn8j.json"
+
+nyc_inspections = get_all_inspections(url) %>%
+  bind_rows() 
+```
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+# Distribution of average most recent inspection score for each location in Manhatton’s restaurants
+
+nyc_inspections = nyc_inspections %>% select(camis, boro, cuisine_description, inspection_date, score, latitude, longitude) %>% mutate(
+  longitude = as.numeric(longitude),
+  latitude = as.numeric(latitude),
+  score = as.numeric(score)
+) %>% filter(!is.na(score), !is.na(longitude), !is.na(latitude), !is.na(inspection_date), !is.na(camis), !is.na(boro), !is.na(cuisine_description), longitude != 0, latitude != 0)
+
+most_recent_inspec = inner_join(nyc_inspections %>% group_by(camis) %>% summarize(inspection_date = max(inspection_date)), nyc_inspections) %>% distinct() %>% ungroup() %>% group_by(camis) %>% filter(score == max(score)) %>% ungroup()
+
+most_recent_inspec %>% filter(boro == "Manhattan") %>% group_by(longitude,latitude) %>% summarize(score = mean(score)) %>% plot_ly(
+  x = ~latitude,
+  y = ~longitude, 
+  type = "scatter",
+  mode = "markers",
+  color = ~score,
+  alpha = 0.5
+)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
