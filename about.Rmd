@@ -5,23 +5,28 @@ output:
     toc_float: true
 ---
 
+<br>
+
 ### EDUCATION
 
-<font size = "3">**Columbia University**</font>                                             
+<font size = "3">**Columbia University**</font><img src= "image/cu.jpeg" align="right" width="50" height="50">                                             
 _Master of Science in Biostatistics_
 <br> Sept. 2019 - Jun. 2021
 <br> **New York, NY**
 <br>Courses: Data Science, Probability, Biostatistics Method, Epidemiology
 
-<font size = "3">**University of Wisconsin-Madison**</font>
+<font size = "3">**University of Wisconsin-Madison**</font><img src= "image/uw.png" align="right" width="50" height="50">
 <br>_Bachelor of Arts in Mathematics_
 <br> Sept. 2015 - Dec. 2018
 <br> **Madison, WI**
 <br>Courses: Stochastic Processes, Real Analysis, Loss Model, Investment Theory, Financial Accounting, Probability Theory, Advanced Calculus, Risk Management Principles, Intermediate Microeconomics
 
+
+<br>
+
 ### INTERNSHIP
 
-<font size = "3">[WeRide.Ai](https://www.weride.ai/)</font>  
+<font size = "3">[WeRide.Ai](https://www.weride.ai/)</font><img src= "image/weride.jpeg" align="right" width="90" height="90">                                        
 *IT Intern*
 <br> Jan. 2019 - July. 2019
 <br> **Sunnyvale, CA**
@@ -31,8 +36,9 @@ _Master of Science in Biostatistics_
 * Recommended, evaluated, and executed modifications to system environments in order to improve efficiency, security, reliability, availability, and performance
 
 
+<br>
 
-<font size = "3">[eBranding.Inc](http://www.ebrandinginc.com/)</font>  
+<font size = "3">[eBranding.Inc](http://www.ebrandinginc.com/)</font><img src= "image/ebranding.png" align="right" width="50" height="50">                                        
 *Data Analyst Intern*
 <br> Jun. 2018 - Augt. 2018
 <br> **Sunnyvale, CA**
@@ -41,7 +47,10 @@ _Master of Science in Biostatistics_
 * Participated in the data management process, including data cleaning, structuring, and storage. Drew raw HTML to databases and stored as time series for further analytics
 * Utilized statistical models and metrics to process data, discovering trending items and categories recognition, and then predicted future performance through a heuristic-based algorithm
 
-<font size = "3">[KPMG](https://home.kpmg/cn/en/home.html)</font>  
+
+<br>
+
+<font size = "3">[KPMG](https://home.kpmg/cn/en/home.html)</font><img src= "image/kpmg.png" align="right" width="50" height="50">                                        
 *Assistant Auditor*
 <br> Jun. 2015 - Augt. 2015
 <br> **Guangzhou, China**
@@ -50,7 +59,10 @@ _Master of Science in Biostatistics_
 * Categorized the data of periodical turnover by using Excel. Drew samples to find audit evidence to verify statements
 * Audited the payment statement of dealers belonged to Trendy Group, and made the Excel form to categorize the lease contracts of the branches and presented the work experience as team leader at the end of intern
 
-<font size = "3">[Leading Capital](http://www.leadingcapital.com.cn/)</font>
+
+<br>
+
+<font size = "3">[Leading Capital](http://www.leadingcapital.com.cn/)</font><img src= "image/leading.png" align="right" width="120" height="40">                                      
 <br>*Finance Intern*
 <br> Jun. 2015 - Augt. 2015
 <br> **Guangzhou, China**
@@ -59,14 +71,20 @@ _Master of Science in Biostatistics_
 * Assisted senior manager to investigate the potential investable companies and reach the agreement of investment.
 * Evaluated previously successful investment and learned the process of investment. 
 
+
+<br>
+
 ### ACTIVITY
-<font size = "3">**Chinese Student and Scholars Association**</font>
+<font size = "3">**Chinese Student and Scholars Association**</font><img src= "image/cssa.png" align="right" width="70" height="70">
 <br> *Member of public relationship department*
 <br> Sep. 2016 - May. 2018
 <br> **Madison, WI, US**
 
 * Assisted department president applying over 20 thousand dollars from Associated Student of Madison and Chinese Embassy
 * Attracted the sponsorship from local merchandises such as Anytime Fitness, AT&T and US Bank 
+
+
+<br>
 
 ### SKILLS
 * Two years’ trading experience in US stock market and four years’ trading experience in China stock Market
