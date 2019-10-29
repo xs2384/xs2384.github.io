@@ -15,9 +15,7 @@ output:
 <font size = "5">About</font>
 
 I'm the first year student at Columbia University, Mailman School of Public Health, with the major of M.S. in Biostatistics. I earned my Bachelor degree at University of Wisconsin-Madison with the major of Mathematics in 2018. 
-
 <br>
-
 Currently, I'm working as a research assistant with professor Seonjoo, Lee at department of Biostatistics in Columbia University. 
 
 <br>
