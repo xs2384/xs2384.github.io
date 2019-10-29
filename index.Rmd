@@ -28,6 +28,8 @@ I'm the first year student at Columbia University, Mailman School of Public Heal
 <br> Email: xs2384@cumc.columbia.edu
 <br> Phone: 608-504-0921
 
+<br>
+
 ### Flexdashboard
 
-The [Flexdashboard](flexdashboard.html) of NYC Restaurant Inspection Results
+The [Flexdashboard](dashboard.html) of NYC Restaurant Inspection Results
