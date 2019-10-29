@@ -25,9 +25,10 @@ _Master of Science in Biostatistics_
 *IT Intern*
 <br> Jan. 2019 - July. 2019
 <br> **Sunnyvale, CA**
-<br> Assisted to implement infrastructure to store and process car data such as logs or sensor data; Created internal tools to track important company metrics
-<br> Participated in developing and maintaining infrastructure for automated deployment of vehicle software and configuration data such as calibration parameters
-<br> Recommended, evaluated, and executed modifications to system environments in order to improve efficiency, security, reliability, availability, and performance
+
+* Assisted to implement infrastructure to store and process car data such as logs or sensor data; Created internal tools to track important company metrics
+* Participated in developing and maintaining infrastructure for automated deployment of vehicle software and configuration data such as calibration parameters
+* Recommended, evaluated, and executed modifications to system environments in order to improve efficiency, security, reliability, availability, and performance
 
 
 
@@ -35,35 +36,39 @@ _Master of Science in Biostatistics_
 *Data Analyst Intern*
 <br> Jun. 2018 - Augt. 2018
 <br> **Sunnyvale, CA**
-<br> mplemented crawling data from webpages on a daily basis, including key information such as Customer Reviews, Star Information, Similar Items, Related items etc
-<br> Participated in the data management process, including data cleaning, structuring, and storage. Drew raw HTML to databases and stored as time series for further analytics
-<br> Utilized statistical models and metrics to process data, discovering trending items and categories recognition, and then predicted future performance through a heuristic-based algorithm
+
+* implemented crawling data from webpages on a daily basis, including key information such as Customer Reviews, Star Information, Similar Items, Related items etc
+* Participated in the data management process, including data cleaning, structuring, and storage. Drew raw HTML to databases and stored as time series for further analytics
+* Utilized statistical models and metrics to process data, discovering trending items and categories recognition, and then predicted future performance through a heuristic-based algorithm
 
 <font size = "3">[KPMG](https://home.kpmg/cn/en/home.html)</font>  
 *Assistant Auditor*
 <br> Jun. 2015 - Augt. 2015
 <br> **Guangzhou, China**
-<br> Took a one weak training about auditing and followed a project which helped the Trendy Group to be listed
-<br> Categorized the data of periodical turnover by using Excel. Drew samples to find audit evidence to verify statements
-<br> Audited the payment statement of dealers belonged to Trendy Group, and made the Excel form to categorize the lease contracts of the branches and presented the work experience as team leader at the end of intern
+
+* Took a one weak training about auditing and followed a project which helped the Trendy Group to be listed
+* Categorized the data of periodical turnover by using Excel. Drew samples to find audit evidence to verify statements
+* Audited the payment statement of dealers belonged to Trendy Group, and made the Excel form to categorize the lease contracts of the branches and presented the work experience as team leader at the end of intern
 
 <font size = "3">[Leading Capital](http://www.leadingcapital.com.cn/)</font>
 <br>*Finance Intern*
 <br> Jun. 2015 - Augt. 2015
 <br> **Guangzhou, China**
-<br> Evaluated past year’s financial data of client companies and prepared the financial report by analyzing risk factors
-<br> Assisted senior manager to investigate the potential investable companies and reach the agreement of investment.
-<br> Evaluated previously successful investment and learned the process of investment. 
+
+* Evaluated past year’s financial data of client companies and prepared the financial report by analyzing risk factors
+* Assisted senior manager to investigate the potential investable companies and reach the agreement of investment.
+* Evaluated previously successful investment and learned the process of investment. 
 
 ### ACTIVITY
-<font size = "3">Chinese Student and Scholars Association</font>
+<font size = "3">**Chinese Student and Scholars Association**</font>
 <br> *Member of public relationship department*
 <br> Sep. 2016 - May. 2018
-<br>**Madison, WI, US**
-<br> Assisted department president applying over 20 thousand dollars from Associated Student of Madison and Chinese Embassy
-<br> Attracted the sponsorship from local merchandises such as Anytime Fitness, AT&T and US Bank 
+<br> **Madison, WI, US**
+
+* Assisted department president applying over 20 thousand dollars from Associated Student of Madison and Chinese Embassy
+* Attracted the sponsorship from local merchandises such as Anytime Fitness, AT&T and US Bank 
 
 ### SKILLS
-<br> Two years’ trading experience in US stock market and four years’ trading experience in China stock Market
-<br> Programming: Python, R, SQL, MS word, PowerPoint, JavaScript, VBA
-<br> Certificate: Passed SOA Actuarial Science Exam P, FM; Coursera (Using Python to access web service; Python Data Structure, Getting started with Python; Introduction to Data Science; Applied Machine Learning); Sitting for Dec. 2019 CFA level I
+* Two years’ trading experience in US stock market and four years’ trading experience in China stock Market
+* Programming: Python, R, SQL, MS word, PowerPoint, JavaScript, VBA
+* Certificate: Passed SOA Actuarial Science Exam P, FM; Coursera (Using Python to access web service; Python Data Structure, Getting started with Python; Introduction to Data Science; Applied Machine Learning); Sitting for Dec. 2019 CFA level I
